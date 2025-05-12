@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- This website was made by Ethan D'Arcy. -->
+<html lang="en">
+<head>
+    <title>SupplyHope | Contact</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.html">SupplyHope</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="donate.html" class="nav-link">Donate</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container">
+        <main>
+            <section>
+                <h1>Contact Us</h1>
+                <div id="contact">
+                    <h2>Ready to get started? Contact us today.</h2>
+                    <h4 class="mobile tel-link"><a href="tel:999-565-8888">(999) 565-8888</a></h4>
+                    <h4>Email us: <a href="mailto:info@supplyhope.org" class="contact-email-link">info@supplyhope.org</a></h4>
+                    <h4>Visit us at: 101 Success Rd, NYC, NY 10038</h4>
+                </div>
+            </section>
+
+            <section class="section contact-form">
+                <h2>Contact Form</h2>
+                <form action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="35" required></textarea>
+
+                    <fieldset>
+                        <legend>How can we help you?</legend>
+
+                        <label for="help">Select an option:</label>
+                        <select name="help" id="help">
+                            <option value="general">General Inquiry</option>
+                            <option value="donation">Donation Question</option>
+                            <option value="volunteer">Volunteer Interest</option>
+                            <option value="assistance">Apply for Assistance</option>
+                        </select>
+
+                        <label for="referral">How did you find us?</label>
+                        <select name="referral" id="referral">
+                            <option value="ad">Advertisement</option>
+                            <option value="friend">Friend</option>
+                            <option value="google">Google</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="extra-questions">Additional Questions:</label>
+                        <textarea id="extra-questions" name="extra_questions" rows="5" cols="35"></textarea>
+                    </fieldset>
+    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                </form>
+            </section>
+        </main>
+
+    <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 SupplyHope. All rights reserved.</p>
+      <p><a href="mailto:info@supplyhope.org">info@supplyhope.org</a></p>
+  </footer>
+    </div>
+</body>
+</html>

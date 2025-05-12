@@ -1,0 +1,79 @@
+<!--Made by Christian Dell'Edera-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SupplyHope | Donate</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+    <div class="logo"><a href="index.html">SupplyHope</a></div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="donate.html" class="nav-link">Donate</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <div class="donate-intro">
+            <h2>Make a Difference Today</h2>
+            <p>We appreciate your support. You can help by donating money or school supplies. Your generosity provides resources for our students and helps them succeed.</p>
+        </div>
+        </section>
+        <section class="section donation-form-section">
+            <div class="container">
+                <h3>Donate Funds</h3>
+                <form class="contact-form" action="#" method="post">
+                    <label for="donor-name">Name</label>
+                    <input type="text" id="donor-name" name="donor_name" placeholder="Your Name" required />
+                    
+                    <label for="donor-email">Email</label>
+                    <input type="email" id="donor-email" name="donor_email" placeholder="Your Email" required />
+                    
+                    <label for="donation-amount">Donation Amount (USD)</label>
+                    <input type="number" id="donation-amount" name="donation_amount" placeholder="0.00" required />
+                    
+                    <button class="button" type="submit">Donate Funds</button>
+                </form>
+                
+                <h3>Donate School Supplies</h3>
+                <form class="contact-form" action="#" method="post">
+                    <label for="supplies-name">Name</label>
+                    <input type="text" id="supplies-name" name="supplies_name" placeholder="Your Name" required />
+                    
+                    <label for="supplies-email">Email</label>
+                    <input type="email" id="supplies-email" name="supplies_email" placeholder="Your Email" required />
+                    
+                    <fieldset>
+                        <legend>Select Supplies to Donate</legend>
+                        <label><input type="checkbox" name="supplies" value="notebooks" /> Notebooks</label>
+                        <label><input type="checkbox" name="supplies" value="pencils" /> Pencils</label>
+                        <label><input type="checkbox" name="supplies" value="backpacks" /> Backpacks</label>
+                        <label><input type="checkbox" name="supplies" value="calculators" /> Calculators</label>
+                        <label><input type="checkbox" name="supplies" value="markers" /> Markers</label>
+                        <label><input type="checkbox" name="supplies" value="erasers" /> Erasers</label>
+                        <label><input type="checkbox" name="supplies" value="crayons" /> Crayons</label>
+                        <label><input type="checkbox" name="supplies" value="colored-pencils" /> Colored Pencils</label>
+                        <label><input type="checkbox" name="supplies" value="glue-sticks" /> Glue Sticks</label>
+                        <label><input type="checkbox" name="supplies" value="hand-sanitizer" /> Hand Sanitizer</label>
+                        <label><input type="checkbox" name="supplies" value="tissues" /> Tissues</label>
+                        <label><input type="checkbox" name="supplies" value="masks" /> Masks</label>
+                    </fieldset>
+                    
+                    <button class="button" type="submit">Donate Supplies</button>
+                </form>
+            </div>
+        </section>
+    </main>
+     <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 SupplyHope. All rights reserved.</p>
+      <p><a href="mailto:info@supplyhope.org">info@supplyhope.org</a></p>
+  </footer>
+</body>
+</html>
